@@ -13,7 +13,8 @@
 } */
 
 header {
-  position: fixed;
+/* position: fixed; */
+  position: absolute;
   right: 0;
   z-index: 1000;
   width: 100%;
@@ -48,7 +49,7 @@ header {
 
 
 #home:hover {
-   border-bottom: 2px solid white; 
+  border-bottom: 2px solid white; 
 }
 
 
@@ -93,7 +94,7 @@ header {
 }
 
 .hero-img img{
-  width: 400px;
+  width: 480px;
   height: auto;
 }
 
@@ -178,12 +179,12 @@ section {
 
 .icons .fa-discord:hover {
   color: #3b5998;
-  transform: translateX(5px);
+  transform: translateY(-5px);
 }
 
 .icons .fa-twitter:hover {
   color: #55acee;
-  transform: translateX(5px);
+  transform: translateY(-5px);
 }
 
 .scroll-down{
@@ -195,10 +196,10 @@ section {
 .scroll-down i {
   display: block;
   padding: 12px;
-  font-size: 25px;
+  font-size: 12px;
   color: white;
   background: black;
-  border-radius: 30px;
+  border-radius: 20px;
   transition: all .50s ease;
 }
 
@@ -248,6 +249,73 @@ section {
 }
 
 
-@media (max-width: 1340px){
-  
+@media (max-width: 1195px){
+  section{
+  padding: 0 3%;
+  transition: .2s;
+  }
+
+  .hero-text{
+  padding-top: 115px;
+}
+
+.hero-img{
+  text-align: center;
+}
+  .hero-img img{
+  width: 560px;
+  height: auto;
+  }
+
+  .hero{
+  height: 100%;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  }
+
+  .icons{
+  display: none;
+  }
+  .scroll-down{
+  display: none;
+  }
+}
+
+@media (max-width: 990px){
+  #menu-icon{
+    display: block;
+  }
+
+  .navlist{
+    /* position: absolute;*/
+    position: fixed;
+    top: 100%;
+    right: -100%;
+    width: 300px;
+    height: 40vh;
+    background: linear-gradient(245.59deg,  red 28.53%, #131313 75.52%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    transition: all .55s ease;
+  }
+
+  .navlist a{
+    margin-left: 0;
+    display: block;
+    margin: 7px 0;
+
+  }
+
+  .navlist.open{
+    right: 0;
+  }
+}
+
+@media (max-width: 680px){
+  .hero-img img{
+    width: 100%;
+    height: auto;
+  }
 }

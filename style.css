@@ -289,7 +289,7 @@ section {
   }
 
   .navlist{
-       position: absolute; 
+    position: absolute; 
     /* position: fixed; */ 
     top: 100%;
     right: -100%;
@@ -313,6 +313,10 @@ section {
   .navlist.open{
     right: 0;
   }
+
+ /*  .hero-text h1{
+    font-size: 2em;
+  } */
 }
 
 @media (max-width: 680px){
@@ -320,4 +324,14 @@ section {
     width: 100%;
     height: auto;
   }
+  .hero-text h1{
+    font-size: 2em;
+  }
 }
+
+
+
+span{
+  color: red;
+}
+

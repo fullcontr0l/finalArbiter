@@ -13,8 +13,8 @@
 } */
 
 header {
-/* position: fixed; */
-  position: absolute;
+   position: fixed;  
+   /* position: absolute;  */
   right: 0;
   z-index: 1000;
   width: 100%;
@@ -23,6 +23,7 @@ header {
   justify-content: space-between;
   padding: 33px 9%;
   background: transparent;
+  background: #131313;
 }
 
 
@@ -288,8 +289,8 @@ section {
   }
 
   .navlist{
-    /* position: absolute;*/
-    position: fixed;
+       position: absolute; 
+    /* position: fixed; */ 
     top: 100%;
     right: -100%;
     width: 300px;

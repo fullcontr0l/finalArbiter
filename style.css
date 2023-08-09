@@ -5,6 +5,7 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 
@@ -13,7 +14,7 @@
 } */
 
 header {
-   position: fixed;  
+  position: fixed;  
    /* position: absolute;  */
   right: 0;
   z-index: 1000;
@@ -22,8 +23,9 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 33px 9%;
-  background: transparent;
-  background: #131313;
+  /*background: transparent;  */
+  /*background: linear-gradient(245.59deg,  red 28.53%, #131313 75.52%); */
+  background: hsl(280, 7%, 8%);
 }
 
 
@@ -86,8 +88,8 @@ header {
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  /* background: linear-gradient(245.59deg,  red 28.53%, #131313 75.52%); */
-  background: #131313;
+  background: linear-gradient(245.59deg,  red 28.53%, #131313 75.52%); 
+  /* background: #131313; */
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -114,9 +116,9 @@ section {
 
 .hero-text h1{
   /* font-family: 'Permanent Marker' , cursive; */
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1;
-  color: white;
+  color: red;
   margin: 0 0 45px;
 }
 
@@ -215,6 +217,8 @@ section {
     padding: 15px 3%;
     transition: .2s;
   }
+
+
   .icons{
     padding: 0 3%;
     transition: .2s;
@@ -230,7 +234,7 @@ section {
   section{
     padding: 0 12%;
     transition: .2s;
-  }
+  } 
 }
 
 
@@ -241,7 +245,7 @@ section {
   }
 
   .hero-text h1 {
-    font-size: 75px;
+    font-size: 40px;
     margin: 0 0 30px;
   }
 
@@ -259,6 +263,10 @@ section {
 
   .hero-text{
   padding-top: 115px;
+}
+
+.hero-text h1{
+  font-size: 2em;
 }
 
 .hero-img{
@@ -332,6 +340,6 @@ section {
 
 
 span{
-  color: red;
+  color: white;
 }
 

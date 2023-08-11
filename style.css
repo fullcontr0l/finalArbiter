@@ -25,11 +25,13 @@ header {
   padding: 33px 9%;
   /*background: transparent;  */
   /*background: linear-gradient(245.59deg,  red 28.53%, #131313 75.52%); */
-  background: hsl(280, 7%, 8%);
+  /* background: hsl(280, 7%, 8%); */
+  background: #000000;
 }
 
 
 .logo {
+  width: 70px;
   font-size: 30px;
   font-weight: 700;
   color: rgb(235, 16, 16);
@@ -342,4 +344,6 @@ section {
 span{
   color: white;
 }
+
+/* Roadmap */
 

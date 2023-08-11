@@ -90,7 +90,7 @@ header {
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(245.59deg,  red 28.53%, #131313 75.52%); 
+  background: linear-gradient(245.59deg,  #e80d18 28.53%, #131313 75.52%); 
   /* background: #131313; */
   position: relative;
   display: grid;
@@ -120,7 +120,8 @@ section {
   /* font-family: 'Permanent Marker' , cursive; */
   font-size: 40px;
   line-height: 1;
-  color: red;
+  /* color: red; */
+  color: #e80d18;
   margin: 0 0 45px;
 }
 
@@ -143,7 +144,8 @@ section {
 .hero-text a{
   display: inline-block;
   color: white;
-  background: #e91811;
+  /* background: #e91811; */
+  background: #e80d18;
   border: 1px solid transparent;
   padding: 12px 30px;
   line-height: 1.4;

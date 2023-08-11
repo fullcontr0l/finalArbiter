@@ -90,7 +90,7 @@ header {
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(245.59deg,  red 28.53%, #131313 75.52%); 
+  background: linear-gradient(245.59deg,  #bb1b23 28.53%, #131313 75.52%); 
   /* background: #131313; */
   position: relative;
   display: grid;

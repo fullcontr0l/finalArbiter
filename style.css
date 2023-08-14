@@ -31,8 +31,8 @@ header {
 
 
 .logo {
-  width: 55px;
-  height: 55px;
+  width: 48px;
+  height: 48px;
   /* font-size: 30px;
   font-weight: 700;
   color: rgb(235, 16, 16); */
@@ -59,7 +59,7 @@ header {
 }
 
 
-#roadmap {
+/* #roadmap {
   opacity: 0.5;
   cursor: not-allowed;
 }
@@ -75,7 +75,7 @@ header {
 #team {
   opacity: 0.5;
   cursor: not-allowed;
-}
+} */
 
 
 
@@ -191,8 +191,8 @@ section {
   transform: translateY(-5px);
 }
 
-.icons .fa-twitter:hover {
-  color: #55acee;
+.icons .fa-x-twitter:hover {
+  color: #363a3d;
   transform: translateY(-5px);
 }
 
@@ -308,7 +308,7 @@ section {
     right: -100%;
     width: 300px;
     height: 40vh;
-    background: linear-gradient(245.59deg,  red 28.53%, #131313 75.52%);
+    background: linear-gradient(245.59deg,  #e80d18 28.53%, #131313 75.52%);
     display: flex;
     align-items: center;
     flex-direction: column;

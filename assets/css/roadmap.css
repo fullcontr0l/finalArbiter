@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+	
+
+
+
+header {
+    position: fixed;  
+     /* position: absolute;  */
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    /*background: transparent;  */
+    /*background: linear-gradient(245.59deg,  red 28.53%, #131313 75.52%); */
+    /* background: hsl(280, 7%, 8%); */
+    background: #000000;
+	top: 0;
+}
+
+
+.logo {
+    width: 48px;
+    height: 48px;
+    /* font-size: 30px;
+    font-weight: 700;
+    color: rgb(235, 16, 16); */
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid white; 
+}
+
+
+/* #roadmap {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+
+#about-us {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#team {
+    opacity: 0.5;
+    cursor: not-allowed;
+  } */
+
+
+#menu-icon{
+    color: white;
+    font-size: 30px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+
+@media (max-width: 1535px){
+    header{
+    padding: 15px 3%;
+    transition: .2s;
+    }
+}
+
+@media (max-width: 990px){
+    #menu-icon{
+    display: block;
+    }
+
+    .navlist{
+    position: absolute; 
+      /* position: fixed; */ 
+    top: 100%;
+    right: -100%;
+    width: 300px;
+    height: 40vh;
+    background: linear-gradient(245.59deg,  #e80d18 28.53%, #131313 75.52%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    transition: all .55s ease;
+    }
+
+    .navlist a{
+    margin-left: 0;
+    display: block;
+    margin: 7px 0;
+
+    }
+
+    .navlist.open{
+    right: 0;
+    }
+
+/*  .hero-text h1{
+    font-size: 2em;
+    } */
+}
+
+
+
+  /* Roadmap Section */
+
+
+
+
+
+

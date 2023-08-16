@@ -70,3 +70,12 @@ $(".step05").click( function() {
 });
 
 /* Our process end */
+
+
+
+/* Meet the Team Section */
+
+
+
+
+/* Ending of meet the team Section */

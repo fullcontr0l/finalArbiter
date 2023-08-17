@@ -75,7 +75,9 @@ $(".step05").click( function() {
 
 /* Meet the Team Section */
 
-
+function BacktoMain(clicked_id){
+    window.location.href = '#page';
+}
 
 
 /* Ending of meet the team Section */

@@ -5,15 +5,17 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+   font-family: 'Poppins', sans-serif; 
+  /* font-family: 'Space Grotesk', sans-serif; */
   
 }
 
 
 
-/* body {
-  background: red;
-} */
+ body {
+  background: linear-gradient(245.59deg,  red 28.53%, #131313 75.52%);
+  height: 100vh; 
+} 
 
 header {
   position: fixed;  
@@ -96,7 +98,7 @@ header {
   width: 100%;
   min-height: 100vh;
   /* background: linear-gradient(245.59deg,  #e80d18 28.53%, #131313 75.52%); */  
-  background-color: #e80d18;
+  /* background-color: #e80d18; */
   /*  background: #000000;  */
   position: relative;
   display: grid;
@@ -363,9 +365,9 @@ span{
   
 } */
 
-.process-container {
-  background: #e80d18;
-}
+/* .process-container {
+   background: #e80d18; 
+} */
 
 #processText{
   padding: 53px;
@@ -552,13 +554,13 @@ span{
 .about-section{
   /* margin-top: 100px; */
   background: url(/assets/img/Coffee_Break_2.png) no-repeat left;
-  background-size: 50%;
+  background-size: 55%;
   /* background-color: #fdfdfd; */
-  background-color: #e80d18;
+  /* background-color: #e80d18; */
   overflow: hidden;
   padding: 150px 0;
-  /* margin-left: 40px; */ 
-  /* margin-top: 20px;  */
+   /* margin-left: 40px;  */
+   margin-top: 20px;  
   
 }
 
@@ -566,7 +568,7 @@ span{
   width: 50%;
   float: right;
   /* background-color: #fdfdfd; */
-  background-color: #e80d18;
+  /* background-color: #e80d18; */
   padding: 150px;
 }
 
@@ -579,7 +581,7 @@ span{
 
 .text{
   font-size: 13px;
-  color: #0e0d0d;
+  color: #fff;
   line-height: 30px;
   text-align: justify;
   margin-bottom: 40px;
@@ -626,99 +628,89 @@ span{
 
 /* Meet the team Section */
 
-
-#team___id{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
-  color: #e80d18;
+.team{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	/* background: radial-gradient(#281c3e,#0f051d); */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
-.h__team{
-  font-size: 30px;
-  margin: 15px;
-  font-weight: 600;
-}
-
-.container___team{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+.our-team {
+  color: #fdfdfd;
   text-align: center;
+  font-size: 2.5em;
 }
-
-.container___team .card__team{
-  width: 340px;
-  margin: 10px;
-  background: #131313;
-  border-radius: 10px;
-  transition: 0.3s;
+.team-content{
+	width: 100%;
+	max-width: 1350px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+	align-items: center;
+	gap: 2rem;
+	text-align: center;
+	margin-top: 4rem;
 }
-
-.container___team .card__team:hover{
-  background: #e80d18;
+.team-content img{
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+	margin-bottom: 15px;
 }
-
-.container___team .card__team .content__team{
-  transition: 0.3s;
+.center h1{
+	color: #fff;
+	font-size: 4rem;
+	text-align: center;
 }
-
-.container___team .card__team .content__team:hover{
-  transform: scale(1.069);
+.box{
+	padding: 16px;
+	background: #f4f4f5;
+	border-radius: 15px;
+	transition: all .38s ease;
 }
-
-.container___team .card__team .profile{
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 20px auto;
-  border: 5px solid coral;
+.box h3{
+	font-size: 23px;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 8px;
 }
-
-.container___team .card__team .profile .img__team{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.box h5{
+	font-size: 15px;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
 }
-
-.container___team .card__team .detail .h__team,
-.container___team .card__team .detail .text___4{
-  margin: 10px 0;
-  color: white;
+/* .icons i{
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	margin: 0 8px;
+	transition: all .38s ease;
 }
-
-.container___team .card__team .social{
-  margin: 15px 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.container___team .card__team .detail .social .icon__team {
-  margin: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  line-height: 40px;
-  text-align: center;
-  transition: 0.2s;
-}
-
-.container___team .card__team .social .icon__team:hover{
-  background: #222;
-}
-
-.container___team .card__team .social .icon__team i{
-  font-size: 21px;
-  color: white;
+.icons i:hover{
+	transform: scale(1.2);
+} */
+.box:hover{
+	transform: translateY(-10px);
+	cursor: pointer;
 }
 
 
+@media(max-width: 1240px){
+	.team{
+		width: 100%;
+		height: auto;
+		padding: 90px 2%;
+	}
+	.center h1{
+		font-size: 3.2rem;
+	}
+}
 /* Ending of Meet the team Section */
 
 

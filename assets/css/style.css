@@ -656,6 +656,7 @@ span{
 	gap: 2rem;
 	text-align: center;
 	margin-top: 4rem;
+  /* justify-content: space-between; */
 }
 .team-content img{
 	width: 100%;
@@ -668,8 +669,8 @@ span{
 	font-size: 4rem;
 	text-align: center;
 }
-.box{
-	padding: 16px;
+.box{ 
+	padding: 16px ;
 	background: #f4f4f5;
 	border-radius: 15px;
 	transition: all .38s ease;
@@ -698,6 +699,7 @@ span{
 	transform: scale(1.2);
 } */
 .box:hover{
+  background: turquoise;
 	transform: translateY(-10px);
 	cursor: pointer;
 }

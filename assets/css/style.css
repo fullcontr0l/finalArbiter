@@ -12,11 +12,25 @@
 
 
 
- body {
-  background: linear-gradient(245.59deg,  #131313 28.53%, red 75.52%);
-  height: 100vh; 
+ html {
+  background-image: url("/assets/img/Coffee_Break_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  min-height: 100%;
+/* width: 100%;
+height: 100%; */
+ background-attachment: fixed; 
+
+  /* background: linear-gradient(245.59deg,  #131313 28.53%, red 75.52%); */
+  /* height: 100vh;  */
 } 
 
+@media only screen and (max-width: 767px) {
+  html {
+     background-image: url(/assets/img/Coffee_Break_2.png);
+  }
+}
 header {
   position: fixed;  
    /* position: absolute;  */
@@ -30,8 +44,8 @@ header {
   /*background: transparent;  */
   /*background: linear-gradient(245.59deg,  red 28.53%, #131313 75.52%); */
   /* background: hsl(280, 7%, 8%); */
-   background: #000000; 
-   height: 60px;
+  background: #000000; 
+  height: 60px;
 
 }
 

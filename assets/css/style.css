@@ -13,24 +13,26 @@
 
 
  html {
-  background-image: url("/assets/img/test33333.png");
+ background-image: url("/assets/img/abstract-geometric-background-shapes-texture.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% 100%;
+  background-size: 100% 100%; 
   /* min-height: 100%; */
-/* width: 100%;
-height: 100%; */
- background-attachment: fixed; 
-
-  /* background: linear-gradient(245.59deg,  #131313 28.53%, red 75.52%); */
+/* width: 100%;*/
+/* height: 100%;  */
+ background-attachment: fixed;  
+/* background: #fdfdfd; */
+/*    background: linear-gradient(245.59deg,  #131313 28.53%, red 75.52%);  */
   /* height: 100vh;  */
 } 
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   html {
-     background-image: url(/assets/img/Coffee_Break_2.png);
+    
+     background-image: url(/assets/img/test33333.png);
   }
-}
+} */
+
 header {
   position: fixed;  
    /* position: absolute;  */
@@ -143,7 +145,7 @@ header {
   font-size: 40px;
   line-height: 1;
   /* color: red; */
-  color: #000000;
+  color: red;
   margin: 0 0 45px;
 }
 
@@ -167,7 +169,7 @@ header {
 .hero-text a{
   display: inline-block;
   color: white;
-   background: #000000; 
+   background: red; 
  /*  background: #e80d18; */
   border: 1px solid transparent;
   padding: 12px 30px;
@@ -177,7 +179,7 @@ header {
   border-radius: 30px;
   text-transform: uppercase;
   transition: all .55s ease;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .hero-text a:hover{
@@ -187,7 +189,7 @@ header {
 }
 
 .hero-text a.ctaa{
-  background: #000000;
+  background: red;
  /*  background: transparent; */
   border: 1px solid white;
   margin-left: 20px;

@@ -163,6 +163,7 @@ header {
   border-radius: 30px;
   text-transform: uppercase;
   transition: all .55s ease;
+  opacity: 0.7;
 }
 
 .hero-text a:hover{
@@ -177,7 +178,7 @@ header {
   border: 1px solid white;
   margin-left: 20px;
   cursor: not-allowed;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .icons{
@@ -554,14 +555,15 @@ span{
 .about-section{
   /* margin-top: 100px; */
   background: url(/assets/img/Coffee_Break_2.png) no-repeat left;
-  background-size: 55%;
+  background-size: 40%;
   /* background-color: #fdfdfd; */
   /* background-color: #e80d18; */
   overflow: hidden;
   padding: 150px 0;
-   /* margin-left: 40px;  */
-   margin-top: 20px;  
-  
+  margin-left: 40px;  
+  margin-top: 20px;  
+  /* border-radius: 2em; */
+ 
 }
 
 .inner-container{

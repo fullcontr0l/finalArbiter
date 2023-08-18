@@ -13,11 +13,11 @@
 
 
  body {
-background: url("/assets/img/photo_2022-07-08_01-02-32.jpg");
+background: url("/assets/img/123123.png");
  background-size: 100% 100%;
  background-repeat: no-repeat;
 background-position: center center; 
-  background-attachment:fixed;  
+background-attachment:fixed;  
  
  /* -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -35,12 +35,12 @@ background-size: cover;  */
   /* height: 100vh; */ 
 } 
 
- @media  screen and (max-width: 767px) {
+/*  @media  screen and (max-width: 767px) {
   body {
     background-size: 100% 100%;
      background-image: url(/assets/img/photo_2022-07-08_01-02-32.jpg);
   }
-} 
+}  */
 
 header {
   position: fixed;  

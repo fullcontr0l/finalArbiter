@@ -13,7 +13,7 @@
 
 
  body {
-background: url("/assets/img/123123.png");
+background: url("/assets/img/photo_2022-07-08_01-02-32.jpg");
  background-size: 100% 100%;
  background-repeat: no-repeat;
 background-position: center center; 
@@ -130,6 +130,7 @@ header {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2rem;
+  background-image: url(/assets/img/123123.png);
 }
 
 .hero-img img{

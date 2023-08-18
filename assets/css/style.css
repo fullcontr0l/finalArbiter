@@ -13,12 +13,11 @@
 
 
  body {
-  background: url("/assets/img/red-grunge-background.jpg");
- background-size: 100% 100%; 
- 
-  background-repeat: no-repeat;
-  background-position: center center;
- background-attachment:fixed;  
+background: url("/assets/img/photo_2022-07-08_01-02-32.jpg");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+background-position: center center; 
+  background-attachment:fixed;  
  
  /* -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -36,12 +35,12 @@ background-size: cover;  */
   /* height: 100vh; */ 
 } 
 
-/* @media only screen and (max-width: 767px) {
-  html {
-    
-     background-image: url(/assets/img/test33333.png);
+ @media  screen and (max-width: 767px) {
+  body {
+    background-size: 100% 100%;
+     background-image: url(/assets/img/photo_2022-07-08_01-02-32.jpg);
   }
-} */
+} 
 
 header {
   position: fixed;  
@@ -142,12 +141,19 @@ header {
     padding: 0 19%;
   }  
 
-
+/* .hero-text {
+  text-align: center;
+  background-color: #f5e503;
+  border-radius: 10px;
+  height: 300px;
+}
+ */
 .hero-text h5 {
   font-size: 14px;
   font-weight: 400;
   color: white;
   margin-bottom: 40px;
+  
 }
 
 .hero-text h1{

@@ -386,7 +386,7 @@ header {
 
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url("/assets/img/Banner_Squad.png");
+    background-image: url("/assets/img/Done_Transparent.png");
     background-size: 100% auto;
   }
 }

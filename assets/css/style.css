@@ -6,8 +6,6 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Poppins', sans-serif; 
-  /* font-family: 'Space Grotesk', sans-serif; */
-  
 }
 
 
@@ -17,7 +15,7 @@ body {
  background-position: center center;
  background-repeat: no-repeat;
  background-attachment: fixed; 
- background-size: 100% 90%;
+ background-size: 100% 100%;
  background-color:#000000; 
  
 }  
@@ -723,7 +721,7 @@ a:focus{
 
 /* Meet the team Section */
 
-.team{
+.team-section{
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -732,6 +730,7 @@ a:focus{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+  
 }
 
 .our-team {

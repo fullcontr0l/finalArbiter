@@ -13,7 +13,7 @@
 
 
 body {
- background-image: url("/assets/img/Done_Transparent.png");
+ background-image: url("/assets/img/w.png");
  background-position: center center;
  background-repeat: no-repeat;
  background-attachment: fixed; 
@@ -653,7 +653,7 @@ span{
 
 @media screen and (max-width:600px){
   .about-section{
-      padding: 0;
+      padding-bottom: 20px;
   }
   .inner-container{
       padding: 60px;

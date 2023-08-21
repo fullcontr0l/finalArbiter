@@ -338,6 +338,10 @@ header {
 }
 
 @media (max-width: 990px){
+  body {
+    background:#000000;
+  }
+
   #menu-icon{
     display: block;
   }
@@ -380,6 +384,9 @@ header {
   }
   .hero-text h1{
     font-size: 2em;
+  }
+  body {
+    background:#000000;
   }
 
 }
@@ -451,14 +458,14 @@ span{
 	width:30px;
 	height:30px;
 	border-radius:50%;
-	border:solid 2px #000000;
+	border:solid 2px #e0d4d4;
 	transition:all ease 0.3s;
      
 }
 
 #progress-bar-container li.active:before, #progress-bar-container li:hover:before {
 	border:solid 2px #fff;
-    background: #fdfdfd;
+    background: #e80d18;
 	/* background: linear-gradient(245.59deg,  #e80d18 28.53%, #131313 75.52%);  */
 }
 
@@ -486,7 +493,7 @@ span{
 }
 
 #progress-bar-container li.active, #progress-bar-container li:hover {
-	color:#000000;
+	color:#f0e7e7;
 }
 
 #progress-bar-container li:after {
@@ -590,25 +597,21 @@ span{
 /* About-us Start */
 
 
-.about-section{
-  /* margin-top: 100px; */
+/* .about-section{
   background: url(/assets/img/Arbiters_Building_Transparent.png) no-repeat left;
-  background-size: 50%; 
-  /* background-color: #fdfdfd; */
-  /* background-color: #e80d18; */
+  background-size: 30%; 
   overflow: hidden;
   padding: 150px 0;
   margin-left: 40px;  
-  margin-top: 20px;  
-  /* border: solid 2px #f5e503 */ 
+  margin-top: 20px; 
+  
 }
 
 .inner-container{
   width: 50%;
-  float: right;
-  /* background-color: #fdfdfd; */
-  /* background-color: #e80d18; */
+   float: right;
   padding: 150px;
+  
 }
 
 .inner-container h1{
@@ -653,7 +656,7 @@ span{
 
 @media screen and (max-width:600px){
   .about-section{
-      padding-bottom: 20px;
+      padding: 0;
   }
   .inner-container{
       padding: 60px;
@@ -661,11 +664,157 @@ span{
   .inner-container h1 {
     text-align: center;
   }
-}
+} */
 
 /* About-us End */
 
+.aboutus-p{
+  padding-top: 50px; 
+  font-size: 15px;
+  line-height: 1.8;
+  color: #f4f4f5;
+}
 
+/* .primary-cta {
+  background: linear-gradient(to right,#e80d18 0%,#e80d18 100%);
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.3s linear all;
+  box-shadow: none;
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.primary-cta:hover {
+  background: #222222;
+  color: #ffffff;
+  transition: 0.3s linear all;
+}  */
+
+/* a,
+a:hover,
+a:focus{
+  text-decoration: none;
+  outline: none;
+}
+ */
+.wf-space{
+  padding: 60px 90px;
+
+}
+
+.wf-left-heading{
+  /* margin-top: 100px; */
+  font-size: 50px;
+  text-transform: capitalize;
+  position: relative;
+  margin: 0;
+  font-weight: 400;
+
+}
+
+ .wf-left-heading span{
+  position: relative;
+  z-index: 99;
+}
+
+.wf-left-heading:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 33px;
+  background: linear-gradient(to right,#e80d18 0%,#e80d18 100%); 
+  left: 0;
+  top: 0;
+} 
+
+.container-aboutus{
+  display: flex;
+  z-index: 99;
+  position: relative;
+}
+
+.wf-about-us__image{
+  position: relative;
+}
+/* .wf-about-us__image:after {
+  position: absolute;
+  content: "";
+  left: -15px;
+  width: 20%;
+  height: 100%;
+   background: linear-gradient(to right,#131212 0%,#e80d18 100%);  
+  top: -15px;
+  bottom: 0;
+  padding: 15px;
+} */
+
+
+.column {
+ /*  text-align: center; */
+  flex: 0 0 50%;
+  position: relative;
+  /* font-family: 'Poppins', sans-serif; */
+}
+.wf-about-us__image img{
+  z-index: 9;
+  position: relative;
+  display: block;
+}
+
+.wf-about-us__content {
+  padding-left: 35px;
+}
+
+.wf-about-us{
+  position: relative;
+}
+ .wf-about-us:after {
+  position: absolute;
+  content: "";
+  background-image: url('https://i.ibb.co/VVxzJKd/pattern-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  top: 30%;
+}
+
+@media (max-width: 1024px){
+  .wf-space {
+    padding: 60px 40px;
+  }
+  .wf-about-us__content p{
+    font-size: 13px;
+  }
+
+  .wf-left-heading {
+    font-size: 35px;
+  }
+
+  .wf-left-heading:after{
+    width: 25px;
+  }
+}
+
+@media (max-width: 767px){
+
+  .container-aboutus{
+    display: block;
+  }
+
+  .wf-about-us__content {
+    padding-left: 0;
+    margin-left: -15px;
+    padding-top: 30px;
+  }
+}
+/*=====  End of about-us  ======*/
 
 /* Meet the team Section */
 

@@ -29,7 +29,7 @@ sr.reveal('.scroll-down', {delay:500, origin:'right'});
 /* Auto type */
 
 var typed = new Typed(".auto-type", {
-    strings: ["Matches", "Team"],
+    strings: ["Matches", "Teams"],
     typeSpeed: 150,
     backSpeed: 150,
     loop: true

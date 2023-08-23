@@ -581,6 +581,7 @@ span{
   font-size: 18px;
   line-height: 1.8;
   color: #f4f4f5;
+  text-shadow:2px 2px 5px #e80d18;
 }
 
  /* .primary-cta {

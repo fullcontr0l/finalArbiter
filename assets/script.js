@@ -29,7 +29,7 @@ sr.reveal('.scroll-down', {delay:500, origin:'right'});
 /* Auto type */
 
 var typed = new Typed(".auto-type", {
-    strings: ["Matches", "Games", "Teams"],
+    strings: ["Matches", "Team"],
     typeSpeed: 150,
     backSpeed: 150,
     loop: true
@@ -81,3 +81,5 @@ function BacktoMain(clicked_id){
 
 
 /* Ending of meet the team Section */
+
+

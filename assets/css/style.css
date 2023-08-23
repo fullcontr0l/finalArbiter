@@ -356,9 +356,9 @@ header {
     height: auto;
   }
 
-.hero-text p{
+/* .hero-text p{
   text-shadow:2px 2px 5px #e80d18;
-}
+} */
 
   .hero-text h1{
     font-size: 2em;
@@ -881,6 +881,7 @@ a:focus{
 
 .footer-icons {
   text-align: center;
+  
 }
 
 .footer-contacts p span {

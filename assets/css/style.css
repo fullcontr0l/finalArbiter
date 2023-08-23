@@ -546,6 +546,7 @@ span{
 	text-transform:uppercase;
 	color: #e80d18;
 	letter-spacing:1px;
+  text-shadow:2px 2px 5px #444;
 }
 
 #progress-content-section .section-content p {

@@ -465,9 +465,10 @@ span{
 
 #note {
   color: red;
-  text-decoration: none;
+  font-weight: bold;
   font-size: 20px;
-  text-shadow: none;
+  text-shadow:2px 2px 5px #444;
+  text-transform:uppercase;
 }
 
 #progress-bar-container li .step-inner {
@@ -542,7 +543,7 @@ span{
 }
 
 #progress-content-section .section-content h2 {
-	font-size:17px;
+	font-size:20px;
 	text-transform:uppercase;
 	color: #e80d18;
 	letter-spacing:1px;

@@ -470,6 +470,13 @@ span{
   text-shadow:2px 2px 5px #444;
   text-transform:uppercase;
 }
+#example {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow:2px 2px 5px #444;
+  text-transform:uppercase;
+}
 
 #progress-bar-container li .step-inner {
 	position:absolute;

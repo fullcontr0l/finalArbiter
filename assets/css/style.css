@@ -463,6 +463,13 @@ span{
 	position:relative;
 }
 
+#note {
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+  text-shadow: none;
+}
+
 #progress-bar-container li .step-inner {
 	position:absolute;
 	width:100%;
